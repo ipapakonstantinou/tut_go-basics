@@ -9,7 +9,7 @@ type Config struct {
     auth_token	string `mapstructure:"AUTH_TOKEN"`
 }
 
-func loadConfig() (auth_token string){
+func LoadConfig() (auth_token string){
 	viper.AddConfigPath("config")
 	viper.SetConfigName("config")
 	err := viper.ReadInConfig()
