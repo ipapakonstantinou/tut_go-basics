@@ -1,4 +1,4 @@
-package config
+package github.com/ipapakonstantinou/tut_go-basics/pkg/config
 
 import (
 	"fmt"
